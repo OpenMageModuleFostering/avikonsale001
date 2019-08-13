@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Avik_Specialproduct>
+            <version>1.6.0</version>
+        </Avik_Specialproduct>
+    </modules>
+    <global>
+		<models>
+            <avik_specialproduct>
+                <class>Avik_Specialproduct_Model</class>
+            </avik_specialproduct>
+        </models>
+        <blocks>
+            <avik_specialproduct>
+                <class>Avik_Specialproduct_Block</class>
+            </avik_specialproduct>
+        </blocks>
+        <helpers>
+            <avik_specialproduct>
+                <class>Avik_Specialproduct_Helper</class>
+            </avik_specialproduct>
+        </helpers>
+		
+    </global>
+    <frontend>
+		<routers>
+            <specialproduct>
+                <use>standard</use>
+                <args>
+                    <module>Avik_Specialproduct</module>
+                    <frontName>special-offers</frontName>
+                </args>
+            </specialproduct>
+        </routers>
+        <layout>
+            <updates>
+                <specialproduct>
+                    <file>avik/specialproduct.xml</file>
+                </specialproduct>
+            </updates>
+        </layout>
+    </frontend>
+</config>

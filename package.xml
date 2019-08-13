@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>avikonsale001</name>
+    <version>1.6.0</version>
+    <stability>stable</stability>
+    <license>OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Onsale product listing with layered navigation </summary>
+    <description>Display all product which has product special price with layered navigation filtering. </description>
+    <notes>Display all product which has product special price with layered navigation filtering. </notes>
+    <authors><author><name>Avik Roy</name><user>avik_roy</user><email>royavik88@gmail.com</email></author></authors>
+    <date>2016-09-14</date>
+    <time>05:55:13</time>
+    <contents><target name="magelocal"><dir name="Avik"><dir name="Specialproduct"><dir name="Block"><dir name="Layer"><dir name="Filter"><file name="Attribute.php" hash="946d58d8bb9f08ba73bc36fba8a01527"/><file name="Category.php" hash="aeccddd3f28e916e67305454730957c0"/><file name="Decimal.php" hash="8f2ba4aab2f300a9fbe280f0e91cc0a0"/><file name="Price.php" hash="993ae73b643126322cccf1b7ea68503f"/></dir><file name="New.php" hash="511e4afcfde34b0ddcf67e7be3bdd089"/></dir><file name="New.php" hash="31f44994ecc896a33025666581a323e2"/></dir><dir name="Helper"><file name="Data.php" hash="eaf02c14b63cf99ac83f8625622e15dd"/></dir><dir name="Model"><dir name="Layer"><dir name="Filter"><file name="Attribute.php" hash="e913b961518c6a76f75ede2df092f704"/><file name="Category.php" hash="868adf0ca3cad2b8206431e34efb20d4"/><file name="Decimal.php" hash="3c5d64f5ef7279d44bc4ebcb580ae196"/><file name="Item.php" hash="4a603b854bce1fb4185553454ff99379"/><file name="Price.php" hash="5ca3279a29480c2b876dcf61c5da7629"/></dir></dir><file name="Layer.php" hash="027cf8f0b2900e4ec68fe0ffd4703547"/></dir><dir name="controllers"><file name="IndexController.php" hash="9ddf36a398a48c2f0932adabf4184380"/></dir><dir name="etc"><file name="config.xml" hash="e2269a714c16d21019e12afe8fe73d3b"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Avik_Specialproduct.xml" hash="85e75a9a488912521cb62aa93c260727"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><dir name="avik"><file name="specialproduct.xml" hash="3dd0e36e62d58df0b53967e6f5760a3a"/></dir></dir><dir name="template"><dir name="avik"><dir name="navigation"><file name="left.phtml" hash="298749cbaddcbb72184bd13fc9d67d81"/></dir><file name="specialproduct.phtml" hash="5c36536bdc266894ded8192412328770"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

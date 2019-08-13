@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Avik_Specialproduct>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Avik_Specialproduct>
+    </modules>
+</config>

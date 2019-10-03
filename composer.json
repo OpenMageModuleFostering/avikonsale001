@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/avikonsale001",
+    "name": "OpenMageModuleFostering\/avikonsale001",
     "type": "magento-module",
     "license": "OSL",
     "homepage": "",
     "description": "Onsale product listing with layered navigation ",
     "authors": [
-    {
-        "name": "Avik Roy",
-        "email": "royavik88@gmail.com"
-    }
-],
+        {
+            "name": "Avik Roy",
+            "email": "royavik88@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
